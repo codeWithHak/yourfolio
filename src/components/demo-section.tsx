@@ -171,8 +171,8 @@ export default function DemoSection() {
                   </div>
 
                   <div className="mt-4 text-sm text-muted-foreground">
-                    Try asking: "What&apos;s Shahid&apos;s experience?" or "How can I
-                    contact John?"
+                    Try asking: &quot;What&apos;s Shahid&apos;s experience?" or &apos;How can I
+                    contact John?&apos;
                   </div>
                 </CardContent>
               </Card>
