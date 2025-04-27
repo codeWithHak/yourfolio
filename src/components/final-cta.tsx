@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Calendar, MessageSquare, Mail } from "lucide-react"
+import { Calendar } from "lucide-react"
 import { FaWhatsapp } from "react-icons/fa";
 import { CiMail } from "react-icons/ci";
 import { motion } from "framer-motion"
