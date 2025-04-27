@@ -28,7 +28,7 @@ export default function FinalCta() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Let's Get You Noticed.</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">Let&apos;s Get You Noticed.</h2>
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
             Take the first step toward elevating your professional presence and standing out in the corporate world.
           </p>

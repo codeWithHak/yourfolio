@@ -12,7 +12,7 @@ export default function DemoSection() {
     {
       role: "bot",
       content:
-        "Hi there! I'm John's AI assistant. How can I help you learn more about his experience and skills?",
+        "Hi there! I&apos;m John&apos;s AI assistant. How can I help you learn more about his experience and skills?",
     },
   ]);
 
@@ -25,7 +25,7 @@ export default function DemoSection() {
     // Simulate AI response
     setTimeout(() => {
       let response =
-        "Thanks for your message! I'd be happy to tell you more about John's experience in product design and his work at Microsoft.";
+        "Thanks for your message! I&apos;d be happy to tell you more about John&apos;s experience in product design and his work at Microsoft.";
 
       if (message.toLowerCase().includes("experience")) {
         response =
@@ -160,7 +160,7 @@ export default function DemoSection() {
                           onKeyDown={(e) =>
                             e.key === "Enter" && handleSendMessage()
                           }
-                          placeholder="Ask about Shahid's experience, projects, or contact info..."
+                          placeholder="Ask about Shahid&apos;s experience, projects, or contact info..."
                           className="flex-grow bg-muted rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
                         />
                         <Button size="icon" onClick={handleSendMessage}>
