@@ -19,7 +19,7 @@ export default function FinalCta() {
   const [isDialogOpen, setIsDialogOpen] = useState(false)
 
   return (
-    <section className="py-20 bg-primary/5 dark:bg-primary/10">
+    <section className="py-20 bg-primary/2 dark:bg-primary/5">
       <div className="container mx-auto px-4">
         <motion.div
           className="max-w-3xl mx-auto text-center"

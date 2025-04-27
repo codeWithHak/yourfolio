@@ -108,7 +108,7 @@ export default function PackagesSection() {
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Button className="w-full" onClick={() => handleStartNow(pkg.name)}>
+                  <Button className="w-full cursor-pointer" onClick={() => handleStartNow(pkg.name)}>
                     Start Now
                   </Button>
                 </CardFooter>

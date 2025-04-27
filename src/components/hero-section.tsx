@@ -77,14 +77,14 @@ export default function HeroSection() {
               Your name. Your work. Your online presence—built to impress.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" onClick={scrollToPackages} className="group">
+              <Button size="lg" onClick={scrollToPackages} className="group cursor-pointer">
                 View Packages
                 <ArrowDown className="ml-2 h-4 w-4 group-hover:translate-y-1 transition-transform" />
               </Button>
 
               <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
                 <DialogTrigger asChild>
-                  <Button variant="outline" size="lg" className="group">
+                  <Button variant="outline" size="lg" className="group cursor-pointer">
                     Let&apos;s Get You Noticed
                     <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                   </Button>

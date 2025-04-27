@@ -121,7 +121,7 @@ export default function WhyChooseUsSection() {
                         className="w-12 h-12 rounded-full object-cover"
                       />
                       <div>
-                        <p className="italic mb-3">&quo;{testimonial.quote}&quo;</p>
+                        <p className="italic mb-3">&quot;{testimonial.quote}&quot;</p>
                         <div>
                           <p className="font-medium">{testimonial.name}</p>
                           <p className="text-sm text-muted-foreground">{testimonial.role}</p>
