@@ -134,6 +134,7 @@ export default function HeroSection() {
                     <Button
                       variant="outline"
                       onClick={() => setIsDialogOpen(false)}
+                      className="cursor-pointer"
                     >
                       Close
                     </Button>

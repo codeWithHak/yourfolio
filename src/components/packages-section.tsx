@@ -157,7 +157,7 @@ export default function PackagesSection() {
             </a>
           </div>
           <div className="flex justify-end">
-            <Button variant="outline" onClick={() => setIsDialogOpen(false)}>
+            <Button variant="outline" className="cursor-pointer" onClick={() => setIsDialogOpen(false)}>
               Close
             </Button>
           </div>
